@@ -1,38 +1,29 @@
 # install chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# install telegram
+# install messengers
 choco install telegram
 
-# install keepass
+# install essentials
 choco install keepass
-
-# install vlc
 choco install vlc
-
-# install wox
 choco install wox
-
-# install f.lux
 choco install f.lux
+choco install speccy
 
-# install git
-choco install git
-
-# install intellij
-choco install intellijidea-ultimate
-
-# install dropbox
+# install cloud storage
 choco install dropbox
-
-# install google drive
 choco install googledrive
 
-# install google chrome
+# install internet tools
 choco install googlechrome
-
-# install firefox
 choco install firefox
-
-# install thunderbird
 choco install thunderbird
+
+# install programming tools
+choco install git
+choco install intellijidea-ultimate
+
+# install tex environment
+choco install texstudio
+choco install miktex
